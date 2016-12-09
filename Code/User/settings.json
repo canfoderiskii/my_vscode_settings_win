@@ -5,7 +5,6 @@
     "editor.renderControlCharacters": true,
 
 // Licenser configurations
-    // 'AL2', 'GPLv2', 'GPLv3', 'LGPLv3', 'MIT', 'BSD'
     "licenser.license": "MIT", //
     "licenser.author": "canfoderiskii",
 
@@ -18,9 +17,19 @@
     "python.linting.mypyEnabled": false,
     "python.autoComplete.extraPaths": [],
     "python.autoComplete.addBrackets": true,
-    // Provider for formatting. Possible options include 'autopep8' and 'yapf'.
     "python.formatting.provider": "yapf",
     "python.formatting.autopep8Args": [],
     "python.formatting.yapfArgs": [],
     "python.workspaceSymbols.tagFilePath": "${workspaceRoot}/.pytags",
+// path-intellisense
+    "path-intellisense.showHiddenFiles": true,
+// Rusty Code configuration
+    "rust.rustLangSrcPath": null,
+    "rust.cargoHomePath": null,
+    "rust.cargoEnv": null,
+    "rust.checkOnSave": false,
+    "rust.checkWith": "check",
+    "rust.features": [],
+    "rust.useJsonErrors": false,
+    "rust.useNewErrorFormat": false,
 }
