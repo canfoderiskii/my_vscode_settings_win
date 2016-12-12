@@ -24,7 +24,7 @@
 // path-intellisense
     "path-intellisense.showHiddenFiles": true,
 // Rusty Code configuration
-    "rust.rustLangSrcPath": null,
+    "rust.rustLangSrcPath": "D:\\Devel\\Rust\\rust-src\\src",
     "rust.cargoHomePath": null,
     "rust.cargoEnv": null,
     "rust.checkOnSave": false,
