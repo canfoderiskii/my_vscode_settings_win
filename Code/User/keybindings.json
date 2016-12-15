@@ -5,5 +5,9 @@
                                  "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
     { "key": "alt+left",         "command": "workbench.action.navigateBack" },
     { "key": "alt+right",        "command": "workbench.action.navigateForward" },
-    { "key": "ctrl+alt+o",         "command": "workbench.action.files.revealActiveFileInWindows" },
+    { "key": "ctrl+alt+o",       "command": "workbench.action.files.revealActiveFileInWindows" },
+    { "key": "ctrl+k ctrl+u",    "command": "editor.action.transformToUppercase",
+                                 "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+k ctrl+l",    "command": "editor.action.transformToLowercase",
+                                 "when": "editorTextFocus && !editorReadonly" },
 ]

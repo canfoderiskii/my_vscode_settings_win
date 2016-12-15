@@ -9,6 +9,8 @@ Code/Cookies*
 Code/storage.json
 Code/Preferences
 Code/User/workspaceStorage/
+Code/CachedData/
+Code/Backups/
 
 # unneeded plugin or projects file
 Code/User/syncSettings.json

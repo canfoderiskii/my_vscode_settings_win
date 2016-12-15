@@ -13,7 +13,8 @@ set PORTABLE_CODE_ROOT=%PORTABLE_ROOT%\Code
 set DELFOLDER@Cache=%PORTABLE_CODE_ROOT%\Cache
 set DELFOLDER@GPUCache=%PORTABLE_CODE_ROOT%\GPUCache
 set DELFOLDER@LocalStorage="%PORTABLE_CODE_ROOT%\Local Storage"
-set DELFOLDER@LocalStorage=%PORTABLE_CODE_ROOT%\User\workspaceStorage
+set DELFOLDER@workspaceStorage=%PORTABLE_CODE_ROOT%\User\workspaceStorage
+set DELFOLDER@CachedData=%PORTABLE_CODE_ROOT%\CachedData
 
 set DELFILE@Cookies=%PORTABLE_CODE_ROOT%\Cookies
 set DELFILE@Cookies-journal=%PORTABLE_CODE_ROOT%\Cookies-journal

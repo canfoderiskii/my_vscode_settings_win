@@ -1,5 +1,6 @@
 // 将设置放入此文件中以覆盖默认设置
 {
+    "window.showFullPath": true,
     "editor.rulers": [80, 100],
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
