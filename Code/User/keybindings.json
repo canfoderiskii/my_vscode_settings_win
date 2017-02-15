@@ -10,4 +10,6 @@
                                  "when": "editorTextFocus && !editorReadonly" },
     { "key": "ctrl+k ctrl+l",    "command": "editor.action.transformToLowercase",
                                  "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+k ctrl+k",    "command": "deleteAllRight",
+                                 "when": "editorTextFocus && !editorReadonly" },
 ]
