@@ -33,4 +33,12 @@
     "rust.features": [],
     "rust.useJsonErrors": false,
     "rust.useNewErrorFormat": false,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "[cpp]": {
+        "editor.quickSuggestions": false
+    },
+    "[c]": {
+        "editor.quickSuggestions": false
+    },
 }
