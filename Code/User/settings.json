@@ -35,6 +35,10 @@
     "rust.useNewErrorFormat": false,
     "workbench.iconTheme": "vscode-icons",
     "vsicons.dontShowNewVersionMessage": true,
-    "workbench.colorTheme": "Default Light+",
-    "window.zoomLevel": 0,
+    "[cpp]": {
+        "editor.quickSuggestions": false
+    },
+    "[c]": {
+        "editor.quickSuggestions": false
+    },
 }
