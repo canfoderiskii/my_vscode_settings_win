@@ -8,19 +8,6 @@
     "licenser.license": "MIT", //
     "licenser.author": "canfoderiskii",
 
-// Python Configuration
-    "python.jediPath": "D:\\Devel\\Python\\Python35\\Lib\\site-packages\\jedi",
-    "python.linting.pylintEnabled": true,
-    "python.linting.pep8Enabled": true,
-    "python.linting.flake8Enabled": true,
-    "python.linting.pydocstyleEnabled": true,
-    "python.linting.mypyEnabled": false,
-    "python.autoComplete.extraPaths": [],
-    "python.autoComplete.addBrackets": true,
-    "python.formatting.provider": "yapf",
-    "python.formatting.autopep8Args": [],
-    "python.formatting.yapfArgs": [],
-    "python.workspaceSymbols.tagFilePath": "${workspaceRoot}/.pytags",
     "path-intellisense.showHiddenFiles": true,
     "workbench.iconTheme": "vscode-icons",
     "vsicons.dontShowNewVersionMessage": true,
