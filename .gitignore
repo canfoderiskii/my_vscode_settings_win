@@ -11,9 +11,11 @@ Code/Preferences
 Code/User/workspaceStorage/
 Code/CachedData/
 Code/Backups/
+Code/machineid
 
 # unneeded plugin or projects file
 Code/User/syncSettings.json
 Code/User/projects.json
 Code/User/vsicones.settings.json
 Code/User/vsicons.settings.json
+
