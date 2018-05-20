@@ -21,4 +21,5 @@
         "suppressUpdateNotice": true
     },
     "gitlens.keymap": "alternate",
+    "gitlens.historyExplorer.enabled": true,
 }
