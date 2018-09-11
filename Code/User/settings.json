@@ -23,4 +23,6 @@
     "gitlens.keymap": "alternate",
     "gitlens.historyExplorer.enabled": true,
     "editor.fontFamily": "'Source Code Pro Medium', Consolas, '微软雅黑', 'Courier New', monospace",
+    "window.openFoldersInNewWindow": "on",
+    "window.openFilesInNewWindow": "on",
 }
