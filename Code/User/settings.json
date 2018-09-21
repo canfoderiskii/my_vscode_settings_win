@@ -25,4 +25,7 @@
     "editor.fontFamily": "'Source Code Pro Medium', Consolas, '微软雅黑', 'Courier New', monospace",
     "window.openFoldersInNewWindow": "on",
     "window.openFilesInNewWindow": "on",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 12,
+    "workbench.editor.enablePreview": false,
 }
