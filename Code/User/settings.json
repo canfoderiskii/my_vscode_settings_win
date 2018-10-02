@@ -28,4 +28,13 @@
     "editor.minimap.enabled": false,
     "editor.fontSize": 12,
     "workbench.editor.enablePreview": false,
+    "gitlens.codeLens.enabled": false,
+    "todo-tree.defaultHighlight": {
+        "foreground": "green",
+        "type": "none"
+    },
+    "todo-tree.customHighlight": {
+        "TODO": {},
+        "FIXME": {}
+    },
 }
