@@ -9,9 +9,11 @@ set PORTABLE_ROOT=%~dp0
 
 set PORTABLE_DOTVSCODE_FOLDER=%~dp0\.vscode
 set USERPROFILE_DOTVSCODE_FOLDER=%USERPROFILE%\.vscode
+set INSIDERS_USERPROFILE_DOTVSCODE_FOLDER=%USERPROFILE%\.vscode-insiders
 
 set PORTABLE_CODE_FOLDER=%~dp0\Code
 set APP_CODE_FOLDER=%APPDATA%\Code
+set INSIDERS_APP_CODE_FOLDER="%APPDATA%\Code - Insiders"
 
 :: delete folders that already exist inside USERPROFILE or APPDATA
 call %PORTABLE_ROOT%\_clean_link.bat
@@ -20,6 +22,8 @@ call %PORTABLE_ROOT%\_clean_link.bat
 
 mklink /d %USERPROFILE_DOTVSCODE_FOLDER% %PORTABLE_DOTVSCODE_FOLDER%
 mklink /d %APP_CODE_FOLDER% %PORTABLE_CODE_FOLDER%
+mklink /d %INSIDERS_USERPROFILE_DOTVSCODE_FOLDER% %PORTABLE_DOTVSCODE_FOLDER%
+mklink /d %INSIDERS_APP_CODE_FOLDER% %PORTABLE_CODE_FOLDER%
 
 :: check if folders are created, due to FAT32 does not support link
 
