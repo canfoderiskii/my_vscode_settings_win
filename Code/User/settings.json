@@ -14,7 +14,6 @@
     "window.zoomLevel": 0,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
     "gitlens.advanced.messages": {
         "suppressResultsExplorerNotice": true,
         "suppressShowKeyBindingsNotice": true,
