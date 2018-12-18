@@ -5,7 +5,6 @@ setlocal
 
 set PORTABLE_ROOT=%~dp0
 
-call %PORTABLE_ROOT%\_clean_link.bat
 call %PORTABLE_ROOT%\_clean_cache.bat
 
 endlocal

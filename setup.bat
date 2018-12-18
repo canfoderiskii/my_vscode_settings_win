@@ -15,6 +15,28 @@ set PORTABLE_CODE_FOLDER=%~dp0\Code
 set APP_CODE_FOLDER=%APPDATA%\Code
 set INSIDERS_APP_CODE_FOLDER="%APPDATA%\Code - Insiders"
 
+:: if folders exist, delete them
+
+if exist %USERPROFILE_DOTVSCODE_FOLDER% (
+    @echo "WARNING: .vscode folder exist inside USERPROFILE, deleting.."
+    rmdir /s /q %USERPROFILE_DOTVSCODE_FOLDER%
+)
+
+if exist %APP_CODE_FOLDER% (
+    @echo "WARNING: code folder exist inside APPDATA, deleting.."
+    rmdir /s /q %APP_CODE_FOLDER%
+)
+
+if exist %INSIDERS_USERPROFILE_DOTVSCODE_FOLDER% (
+    @echo "WARNING: .vscode folder exist inside INSIDERS_USERPROFILE, deleting.."
+    rmdir /s /q %INSIDERS_USERPROFILE_DOTVSCODE_FOLDER%
+)
+
+if exist %INSIDERS_APP_CODE_FOLDER% (
+    @echo "WARNING: .vscode folder exist inside INSIDERS_APPDATA, deleting.."
+    rmdir /s /q %INSIDERS_APP_CODE_FOLDER%
+)
+
 :: delete folders that already exist inside USERPROFILE or APPDATA
 call %PORTABLE_ROOT%\_clean_link.bat
 
