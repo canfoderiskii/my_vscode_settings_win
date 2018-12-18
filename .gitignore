@@ -14,6 +14,7 @@ Code/CachedExtensions/
 Code/logs/
 Code/Backups/
 Code/machineid
+Code/User/globalStorage/
 
 # unneeded plugin or projects file
 Code/User/syncSettings.json
