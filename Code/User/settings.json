@@ -4,10 +4,6 @@
     "editor.renderWhitespace": "boundary",
     "editor.renderControlCharacters": true,
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}",
-
-    "licenser.license": "MIT", //
-    "licenser.author": "canfoderiskii",
-
     "path-intellisense.showHiddenFiles": true,
     "workbench.iconTheme": "vscode-icons",
     "vsicons.dontShowNewVersionMessage": true,
@@ -20,7 +16,6 @@
         "suppressUpdateNotice": true
     },
     "gitlens.keymap": "alternate",
-    "gitlens.historyExplorer.enabled": true,
     "editor.fontFamily": "'Source Code Pro Medium', Consolas, '微软雅黑', 'Courier New', monospace",
     "window.openFoldersInNewWindow": "on",
     "window.openFilesInNewWindow": "on",
@@ -28,12 +23,6 @@
     "editor.fontSize": 12,
     "workbench.editor.enablePreview": false,
     "gitlens.codeLens.enabled": false,
-    "todo-tree.defaultHighlight": {
-        "foreground": "green",
-        "type": "none"
-    },
-    "todo-tree.customHighlight": {
-        "TODO": {},
-        "FIXME": {}
-    },
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
 }
