@@ -7,7 +7,7 @@
     "path-intellisense.showHiddenFiles": true,
     "workbench.iconTheme": "vscode-icons",
     "vsicons.dontShowNewVersionMessage": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "gitlens.advanced.messages": {
@@ -25,4 +25,5 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
+    "workbench.colorTheme": "Default High Contrast",
 }
