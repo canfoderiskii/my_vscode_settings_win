@@ -5,16 +5,9 @@
     "editor.renderControlCharacters": true,
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}",
     "path-intellisense.showHiddenFiles": true,
-    "workbench.iconTheme": "vscode-icons",
-    "vsicons.dontShowNewVersionMessage": true,
     "window.zoomLevel": 1,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "gitlens.advanced.messages": {
-        "suppressResultsExplorerNotice": true,
-        "suppressShowKeyBindingsNotice": true,
-        "suppressUpdateNotice": true
-    },
     "gitlens.keymap": "alternate",
     "editor.fontFamily": "'Source Code Pro Medium', Consolas, '微软雅黑', 'Courier New', monospace",
     "window.openFoldersInNewWindow": "on",
@@ -23,7 +16,52 @@
     "editor.fontSize": 12,
     "workbench.editor.enablePreview": false,
     "gitlens.codeLens.enabled": false,
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-    "workbench.colorTheme": "Default High Contrast",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+    "workbench.iconTheme": "vscode-icons",
+    "git.autofetch": true,
+    "remote.SSH.remotePlatform": {
+        "vm-ubuntu18": "linux"
+    },
+    "plantuml.jar": "E:\\Program\\PlantUML\\plantuml.jar",
+    "search.useIgnoreFiles": false,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "line",
+            "foreground": "white",
+            "iconColour": "yellow",
+        },
+        // "FIXME": {
+        //     "foreground": "black",
+        //     "iconColour": "yellow",
+        //     "gutterIcon": true
+        // }
+    },
+    "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|\\s*\\*|^)\\s*($TAGS):?|^\\s*- \\[ \\])",
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "python.languageServer": "Pylance",
+    "http.proxy": "http://127.0.0.1:7890",
+    "python.showStartPage": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    // "todo-tree.highlights.defaultHighlight": {
+    // }
 }

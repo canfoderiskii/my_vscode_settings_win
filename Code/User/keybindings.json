@@ -11,5 +11,10 @@
     { "key": "ctrl+k ctrl+l",    "command": "editor.action.transformToLowercase",
                                  "when": "editorTextFocus && !editorReadonly" },
     { "key": "ctrl+k ctrl+k",    "command": "deleteAllRight",
-                                 "when": "editorTextFocus && !editorReadonly" },
+                                "when": "editorTextFocus && !editorReadonly"
+                            },
+                            {
+                                "key": "shift+f3",
+                                "command": "-hediet.vscode-drawio.linkCodeWithSelectedNode"
+                            },
 ]
