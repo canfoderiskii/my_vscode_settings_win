@@ -2,19 +2,21 @@
 .vscode/
 
 # cache or something
-Code/Cache/
-Code/GPUCache/
+Code/Backups/
+Code/*storage*
+Code/*Cache*
+Code/Crashpad
 Code/Local Storage/
 Code/Cookies*
-Code/storage.json
 Code/Preferences
 Code/User/workspaceStorage/
-Code/CachedData/
-Code/CachedExtensions/
 Code/logs/
-Code/Backups/
+Code/Session Storage/
 Code/machineid
 Code/User/globalStorage/
+Code/Network Persistent State
+Code/TransportSecurity
+Code/rapid_render.json
 
 # unneeded plugin or projects file
 Code/User/syncSettings.json
