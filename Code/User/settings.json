@@ -5,7 +5,7 @@
     "editor.renderControlCharacters": true,
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}",
     "path-intellisense.showHiddenFiles": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "gitlens.keymap": "alternate",
@@ -16,7 +16,6 @@
     "editor.fontSize": 12,
     "workbench.editor.enablePreview": false,
     "gitlens.codeLens.enabled": false,
-    "workbench.colorTheme": "Tomorrow Night Blue",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
@@ -54,14 +53,21 @@
     "workbench.editor.closeEmptyGroups": false,
     "workbench.startupEditor": "newUntitledFile",
     "python.languageServer": "Pylance",
-    "http.proxy": "http://127.0.0.1:7890",
     "python.showStartPage": false,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter-notebook",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "python.formatting.provider": "black",
+    "tabnine.experimentalAutoImports": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "licenser.disableAutoHeaderInsertion": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "security.workspace.trust.banner": "always",
+    "security.workspace.trust.startupPrompt": "always",
+    "workbench.colorTheme": "Winter is Coming (Dark Blue)",
     // "todo-tree.highlights.defaultHighlight": {
     // }
 }
