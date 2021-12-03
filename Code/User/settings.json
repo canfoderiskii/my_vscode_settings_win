@@ -67,7 +67,10 @@
     },
     "security.workspace.trust.banner": "always",
     "security.workspace.trust.startupPrompt": "always",
-    "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+    "workbench.colorTheme": "Dracula Soft",
+    "http.proxy": "http://127.0.0.1:20000",
+    "shellformat.useEditorConfig": true,
+    "shellformat.flag": "-kp -ci"
     // "todo-tree.highlights.defaultHighlight": {
     // }
 }
