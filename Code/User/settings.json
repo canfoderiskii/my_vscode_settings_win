@@ -5,7 +5,7 @@
     "editor.renderControlCharacters": true,
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}",
     "path-intellisense.showHiddenFiles": true,
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "gitlens.keymap": "alternate",
@@ -15,16 +15,15 @@
     "editor.minimap.enabled": false,
     "editor.fontSize": 12,
     "workbench.editor.enablePreview": false,
-    "gitlens.codeLens.enabled": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
     "workbench.iconTheme": "vscode-icons",
     "git.autofetch": true,
     "remote.SSH.remotePlatform": {
-        "vm-ubuntu18": "linux"
+        "vm-ubuntu18": "linux",
+        "vm-ubuntu-server-20.04": "linux"
     },
-    "plantuml.jar": "E:\\Program\\PlantUML\\plantuml.jar",
     "search.useIgnoreFiles": false,
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
@@ -35,13 +34,12 @@
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
-    "todo-tree.tree.showScanModeButton": false,
     "todo-tree.highlights.customHighlight": {
         "TODO": {
             "icon": "check",
             "type": "line",
-            "foreground": "white",
-            "iconColour": "yellow",
+            "foreground": "#ffffff",
+            "iconColour": "#ffff00",
         },
         // "FIXME": {
         //     "foreground": "black",
@@ -53,12 +51,10 @@
     "workbench.editor.closeEmptyGroups": false,
     "workbench.startupEditor": "newUntitledFile",
     "python.languageServer": "Pylance",
-    "python.showStartPage": false,
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
     "python.formatting.provider": "black",
-    "tabnine.experimentalAutoImports": true,
     "vsicons.dontShowNewVersionMessage": true,
     "licenser.disableAutoHeaderInsertion": true,
     "notebook.cellToolbarLocation": {
@@ -67,10 +63,20 @@
     },
     "security.workspace.trust.banner": "always",
     "security.workspace.trust.startupPrompt": "always",
-    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "Dracula At Night",
     "http.proxy": "http://127.0.0.1:20000",
     "shellformat.useEditorConfig": true,
-    "shellformat.flag": "-kp -ci"
-    // "todo-tree.highlights.defaultHighlight": {
-    // }
+    "shellformat.flag": "-kp -ci",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "redhat.telemetry.enabled": false,
+    "C_Cpp.default.compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\Hostx64\\x64\\cl.exe",
+    "licenser.author": "Canfoderiskii",
+    "gitlens.codeLens.enabled": false,
+	"update.enableWindowsBackgroundUpdates": false,
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"aiXcoder.searchIntegratedWindow": true
 }
