@@ -1,31 +1,33 @@
 # extension
-.vscode/
+extensions/
 TabNine/
 
 # cache or something
-Code/Backups/
-Code/*storage*
-Code/*Cache*
-Code/Crashpad
-Code/Local Storage/
-Code/Cookies*
-Code/Preferences
-Code/User/workspaceStorage/
-Code/logs/
-Code/Session Storage/
-Code/Service Worker/
-Code/machineid
-Code/User/globalStorage/
-Code/Network Persistent State
-Code/TransportSecurity
-Code/rapid_render.json
-Code/QuotaManager*
+user-data/Backups/
+user-data/*storage*
+user-data/*Cache*
+user-data/Crashpad
+user-data/Local State
+user-data/Local Storage/
+user-data/Cookies*
+user-data/Preferences
+user-data/User/History/
+user-data/User/workspaceStorage/
+user-data/logs/
+user-data/Session Storage/
+user-data/Service Worker/
+user-data/machineid
+user-data/User/globalStorage/
+user-data/Network*
+user-data/TransportSecurity
+user-data/rapid_render.json
+user-data/QuotaManager*
 
 # unneeded plugin or projects file
-Code/User/syncSettings.json
-Code/User/projects.json
-Code/User/vsicones.settings.json
-Code/User/vsicons.settings.json
+user-data/User/syncSettings.json
+user-data/User/projects.json
+user-data/User/vsicones.settings.json
+user-data/User/vsicons.settings.json
 
 *.lock
 *.db
